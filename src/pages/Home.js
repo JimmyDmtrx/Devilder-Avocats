@@ -7,10 +7,10 @@ const Home = () => {
             <img className="librairy" style={{width:"100vw", height:"50vh", objectFit:"cover"}} src={librairy} alt="librairy" />
           </article>
 
-  <div className='container'>
+  <div className='container homeContent'>
     <section className="row">
     <div className="mt-5">
-        <h1 className="title text-center mb-4">NOTRE CABINET D’AVOCATS </h1>
+        <h1 className="title text-center">NOTRE CABINET D’AVOCATS </h1>
         <p>
           Devilder Avocats est un cabinet d’affaires qui fait preuve d’une
           extrême proximité avec ses clients, d’une très haute qualité de

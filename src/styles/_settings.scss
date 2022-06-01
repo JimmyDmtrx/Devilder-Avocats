@@ -37,6 +37,9 @@ body {
 .title {
     text-justify: center;
     letter-spacing: 0.8rem;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .title::after {

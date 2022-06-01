@@ -9,7 +9,7 @@ const Header = () => {
   <div className="header p-4 ">
             <div className="container">
               <section className="row justify-content-around align-items-center">
-                <h1 className="col-5 fw-lighter">Devilder avocats</h1>
+                <h1 className="col-5 fw-lighter">Devilder Avocats</h1>
                 
                 <div className="col-6">
                   <ul className="d-flex justify-content-between mt-3">

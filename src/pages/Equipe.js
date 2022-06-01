@@ -9,10 +9,10 @@ const Equipe = () => {
                 <article className=' imgContainer col-4'>
                     <img style={{width:"100%"}} src={EdPic} alt="" />
                 </article>
-                <article className='col-8'>
-                    <div> 
-                        <h2 className='text-center'>Edouard Devilder</h2>
-                        <p className='text-center'>Avocat fondateur</p>
+                <article className='col-8 mb-5'>
+                    <div className='mb-3'> 
+                        <h2 className='text-center fw-bold'>Edouard Devilder</h2>
+                        <p className='text-center fw-bold'>Avocat fondateur</p>
                     </div>
                     <div>
                     <p>
@@ -24,12 +24,12 @@ const Equipe = () => {
             <p>
               Après avoir été formé dans des cabinets d’affaires internationaux
               (Linklaters et Bredin Prat) et effectué une alternance de 2 ans en
-              entreprise (Orano, ex Areva), Édouard a rejoint en 2012 le cabinet
+              entreprise (Orano, ex Areva), Edouard a rejoint en 2012 le cabinet
               Freshfields Bruckhaus Deringer LLP, dans lequel il a exercé en
               tant que collaborateur libéral pendant près de 6 ans.
             </p>
             <p>
-              À ce titre, Édouard est intervenu sur des problématiques
+              À ce titre, Edouard est intervenu sur des problématiques
               contractuelles particulièrement complexes pour une clientèle de
               grands groupes (automobile, transport ferroviaire, grande
               distribution notamment) et sur tous les aspects du droit de la
@@ -42,11 +42,11 @@ const Equipe = () => {
             <p>
               En 2018, après avoir acquis une expérience forte dans de nombreux
               pans du droit des affaires et une connaissance approfondie de
-              différentes industries, Édouard a fondé Devilder Avocats afin de
+              différentes industries, Edouard a fondé Devilder Avocats afin de
               se consacrer entièrement à ses clients.
             </p>
             <p>
-              Riche de son expérience, Édouard propose une relation-client
+              Riche de son expérience, Edouard propose une relation-client
               entreprenante, privilégiée et pragmatique.{" "}
             </p>
             <p>Ses langues de travail sont le français et l’anglais.</p>
@@ -55,9 +55,9 @@ const Equipe = () => {
             </section>
             <section className='row'>
                 <article className='col-8'>
-                    <div>
-                        <h2 className='text-center'>Cecilia Trovato</h2>
-                        <p className='text-center'>Avocate Collaboratrice</p>
+                    <div className='mb-3'>
+                        <h2 className='text-center fw-bold'>Cécilia Trovato</h2>
+                        <p className='text-center fw-bold'>Avocate collaboratrice</p>
                     </div>
                     <div>
                     <p>
