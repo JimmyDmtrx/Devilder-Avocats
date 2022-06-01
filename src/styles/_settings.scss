@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Raleway:wght@300;500;600&display=swap');
+$font-1: 'Raleway', sans-serif;
+$font-2: 'Open Sans', sans-serif;
+
+$white: rgb(239, 239, 239);
+$black: rgb(23, 23, 23);
+
+$color-1: #cbc5c1;
+$color-2: #a2aaB0;
+$color-3: #ebeced;
+$color-4: #4c586f;
+$color-5: #3e3e3b;
+
+$shadow: 0 1px 3px #333;
+
+$margin-body : 1rem auto;
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-2;
+    font-size: 1.2rem;
+}
+
+.title {
+    text-justify: center;
+    letter-spacing: 0.8rem;
+}
+
+.title::after {
+    content: '';
+    width: 200px;
+    height: 2px;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+// a:visited {
+//     color: $black;
+// }

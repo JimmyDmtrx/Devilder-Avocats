@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    background: $white;
+    top: 0;
+    font-family: $font-1;
+    position: sticky;
+
+
+    & h1 {
+        letter-spacing: 0.8rem;
+    }
+
+
+    li {
+        font-family: $font-2;
+        font-size: 1.2rem;
+        position: relative;
+
+        a {
+            color: $black
+        }
+
+        .nav-active {
+            color: $color-2
+        }
+
+    }
+
+
+    ;
+
+    li:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        // border-radius: 50%;
+        background-color: $black;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+
+    }
+
+    li:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}

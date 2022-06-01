@@ -1,0 +1,29 @@
+.contactContent {
+    h1 {
+        margin-bottom: 4rem;
+    }
+
+    h4 {
+        font-family: $font-1;
+        margin-bottom: 1.4rem;
+        margin-top: 1.4rem;
+    }
+
+    h5 {
+        letter-spacing: 0.7rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+
+    article p {
+        font-size: 1.3rem;
+    }
+
+    .icons {
+        height: 2rem;
+    }
+
+    .tobeclicked {
+        cursor: pointer;
+    }
+}

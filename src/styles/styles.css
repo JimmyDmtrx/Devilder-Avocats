@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Raleway:wght@300;500;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.title {
+  text-justify: center;
+  letter-spacing: 0.8rem;
+}
+
+.title::after {
+  content: '';
+  width: 200px;
+  height: 2px;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  background: #efefef;
+  top: 0;
+  font-family: "Raleway", sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.header h1 {
+  letter-spacing: 0.8rem;
+}
+
+.header li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.header li a {
+  color: #171717;
+}
+
+.header li .nav-active {
+  color: #a2aaB0;
+}
+
+.header li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #171717;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.header li:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: #efefef;
+  margin-top: 100px;
+}
+
+.contactContent h1 {
+  margin-bottom: 4rem;
+}
+
+.contactContent h4 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+.contactContent h5 {
+  letter-spacing: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.contactContent article p {
+  font-size: 1.3rem;
+}
+
+.contactContent .icons {
+  height: 2rem;
+}
+
+.contactContent .tobeclicked {
+  cursor: pointer;
+}
+
+.equipeContent h2 {
+  margin-top: 2rem;
+}
+
+.equipeContent .imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secteurContent li {
+  background-color: #efefef;
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
