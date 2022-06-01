@@ -22,9 +22,9 @@ const Expertise = () => {
   // navigate("/commercial-contrat")
   return (
     <div className="container">
-      <div className="title-expertise">Expertise</div>
+      <h1 className="title mt-4 text-center">Expertise</h1>
 
-      <div className="categ-container">
+      <section className="categ-container">
         <div className="categ-expertise" onClick={handleCateg1}>
           Contrats commerciaux
         </div>
@@ -41,7 +41,7 @@ const Expertise = () => {
         <div onClick={handleCateg5} className="categ-expertise">
           Contentieux et résolution des litiges
         </div>
-      </div>
+      </section>
     </div>
   );
 };

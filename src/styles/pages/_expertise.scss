@@ -1,0 +1,50 @@
+.categ-expertise {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.12rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid #D68627;
+    max-width: 400px;
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+    transition: 0.2s all ease;
+}
+
+.categ-expertise::before {
+
+    background: #c9c9c9;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    /* pour qu'il se mette en dessous du titre  test après */
+    transition: all 0.6s ease;
+    width: 0%;
+    height: 50%;
+    /* transform: translate(-50%, -50%) ; */
+
+}
+
+.categ-expertise:hover::before {
+    width: 100%;
+}
+
+.categ-expertise:hover {
+    transition: 100ms;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.categ-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70vh;
+}
