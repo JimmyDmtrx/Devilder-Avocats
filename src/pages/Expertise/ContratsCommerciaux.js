@@ -14,7 +14,7 @@ const ContratsCommerciaux = () => {
     <section className="container">
       <h1 className="title mt-5 text-center">Contrats commerciaux</h1>
       <div className="div-page-exp">
-        <div className="div-left-page-exp">
+        <div className="div-left-page-exp col-4">
           <div
             onClick={() => {
               setVisible1(true);
