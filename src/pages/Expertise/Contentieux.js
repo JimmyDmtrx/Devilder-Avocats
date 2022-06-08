@@ -15,7 +15,7 @@ const Contentieux = () => {
   const [visible6, setVisible6] = useState(false);
   return (
     <section className="container">
-      <h1 className="title-page-exp">CONTENTIEUX ET RÉSOLUTION DES LITIGES</h1>
+      <h1 className="title page-exp mt-5 text-center">Contentieux et résolution des litiges</h1>
       <p>
         Devilder Avocats accompagne ses clients dans l’élaboration et
         l’exécution de la meilleure stratégie juridique ou judiciaire à adopter.

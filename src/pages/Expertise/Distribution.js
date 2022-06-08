@@ -10,7 +10,7 @@ const Distribution = () => {
 
   return (
     <section className="container">
-      <h1 className="title-page-exp">Distribution et consommation</h1>
+      <h1 className="title mt-5 text-center">Distribution et consommation</h1>
       <div className="div-page-exp">
         <div className="div-left-page-exp">
           <div

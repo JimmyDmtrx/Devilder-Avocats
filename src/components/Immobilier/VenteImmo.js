@@ -3,7 +3,7 @@ const VenteImmo = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Assistance au montage d’un projet immobilier au moment de
             l’acquisition d’un actif immobilier et/ou pour l’identification des

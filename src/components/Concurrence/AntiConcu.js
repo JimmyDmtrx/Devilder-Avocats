@@ -4,7 +4,7 @@ const AntiConcu = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Identification et maîtrise des risques (audits internes, analyse du
             risque concurrentiel dans les contrats commerciaux et les accords de

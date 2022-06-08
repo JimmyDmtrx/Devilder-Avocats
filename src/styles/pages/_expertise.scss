@@ -8,14 +8,14 @@
     // text-transform: uppercase;
     max-width: 400px;
     width: 100%;
-    max-height: 200px;
+    height: 7rem;
     overflow: hidden;
     transition: 0.2s all ease;
 }
 
 .categ-expertise::before {
 
-    background: #c9c9c9;
+    background: $color-3;
     content: "";
     position: absolute;
     top: 50%;
@@ -25,7 +25,7 @@
     /* pour qu'il se mette en dessous du titre  test après */
     transition: all 0.6s ease;
     width: 0%;
-    height: 50%;
+    height: 100%;
     /* transform: translate(-50%, -50%) ; */
 
 }
@@ -45,5 +45,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 70vh;
+    height: 50vh;
+}
+
+.expertise-list {
+    line-height: 3rem;
 }

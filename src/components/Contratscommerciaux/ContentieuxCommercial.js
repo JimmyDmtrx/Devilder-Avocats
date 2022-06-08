@@ -3,7 +3,7 @@ const Contentieuxcommercial = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Gestion précontentieuse : recherche d’une solution amiable et mise
             en place en amont d’une stratégie précontentieuse ;

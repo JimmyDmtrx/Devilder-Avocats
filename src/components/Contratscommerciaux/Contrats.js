@@ -3,7 +3,7 @@ const Contrats = () => {
   return (
     <section>
       <div className="container-comp">
-        <ul>
+        <ul className='expertise-list'>
           <li>Analyse des besoins et des possibilités juridiques;</li>
           <li>Conseil et élaboration des différents schémas contractuels ;</li>
           <li>

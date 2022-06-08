@@ -3,7 +3,7 @@ const ContentieuxConcu = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>Recherche d’une solution amiable ;</li>
           <li>Conseil dans l’élaboration des stratégies contentieuses ;</li>
           <li>

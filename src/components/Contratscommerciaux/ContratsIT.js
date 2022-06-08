@@ -3,7 +3,7 @@ const ContratsIT = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Négociation, revue et rédaction de contrats informatiques de tout
             type : contrats relatifs aux systèmes informatiques, contrats

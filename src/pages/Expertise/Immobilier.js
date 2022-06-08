@@ -11,7 +11,7 @@ const Immobilier = () => {
   const [visible4, setVisible4] = useState(false);
   return (
     <section className="container">
-      <h1 className="title">IMMOBILIER ET CONSTRUCTION</h1>
+      <h1 className="title mt-5 text-center">Immobilier et construction</h1>
       <div className="div-page-exp">
         <div className="div-left-page-exp">
           <div

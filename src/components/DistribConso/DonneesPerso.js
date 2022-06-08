@@ -3,7 +3,7 @@ const DonneesPerso = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Analyse des contrats existants avec les clients et partenaires,
             analyse et encadrement des situations de coresponsabilité

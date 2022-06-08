@@ -3,7 +3,7 @@ const DistributionComp = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Élaboration de politiques commerciales et déploiement sur les
             réseaux de distribution ;

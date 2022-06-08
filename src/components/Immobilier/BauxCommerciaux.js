@@ -3,7 +3,7 @@ const BauxCommerciaux = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Rédaction, négociation, conclusion et renouvellement de baux
             commerciaux ;

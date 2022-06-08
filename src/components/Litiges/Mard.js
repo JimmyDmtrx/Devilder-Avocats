@@ -3,7 +3,7 @@ const Mard = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Renégociation des conditions contractuelles avec les partenaires ;
           </li>

@@ -3,7 +3,7 @@ const DroitsSociete = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Contentieux de l’acquisition : garanties d’actif et de passif,
             earn-out, etc… ;

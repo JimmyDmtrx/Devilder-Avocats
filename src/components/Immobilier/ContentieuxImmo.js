@@ -4,7 +4,7 @@ const ContentieuxImmo = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Contentieux locatifs relatifs aux baux commerciaux, professionnels
             et d’habitation (recouvrement de loyers et de charges, révision et

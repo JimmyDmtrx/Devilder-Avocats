@@ -3,7 +3,7 @@ const Compliance = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Analyse et évaluation des pratiques au regard du droit de la
             concurrence ;

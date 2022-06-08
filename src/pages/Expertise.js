@@ -22,23 +22,23 @@ const Expertise = () => {
   // navigate("/commercial-contrat")
   return (
     <div className="container">
-      <h1 className="title mt-5 text-center mb-3">Nos expertises</h1>
+      <h1 className="title mt-5 text-center">Nos expertises</h1>
 
-      <section className="categ-container mt-5">
-        <div className="categ-expertise border" onClick={handleCateg1}>
+      <section className="categ-container mt-5 pt-5">
+        <div className="categ-expertise shadow" onClick={handleCateg1}>
           Contrats commerciaux
         </div>
 
-        <div onClick={handleCateg2} className="categ-expertise border">
+        <div onClick={handleCateg2} className="categ-expertise shadow">
           Concurrence
         </div>
-        <div onClick={handleCateg3} className="categ-expertise border">
+        <div onClick={handleCateg3} className="categ-expertise shadow">
           Distribution et consommation
         </div>
-        <div onClick={handleCateg4} className="categ-expertise border">
+        <div onClick={handleCateg4} className="categ-expertise shadow">
           Immobilier et construction
         </div>
-        <div onClick={handleCateg5} className="categ-expertise border">
+        <div onClick={handleCateg5} className="categ-expertise shadow">
           Contentieux et résolution des litiges
         </div>
       </section>

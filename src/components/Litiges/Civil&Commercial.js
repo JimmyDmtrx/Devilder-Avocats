@@ -3,7 +3,7 @@ const CivilCommercial = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li> En ATTENTE</li>
           <li> En ATTENTE</li>
           <li>En ATTENTE</li>

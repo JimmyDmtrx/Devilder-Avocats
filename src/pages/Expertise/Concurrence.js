@@ -11,7 +11,7 @@ const Concurrence = () => {
   const [visible4, setVisible4] = useState(false);
   return (
     <section className="container">
-      <h1 className="title-page-exp">Concurrence</h1>
+      <h1 className="title mt-5 text-center">Concurrence</h1>
       <div className="div-page-exp">
         <div className="div-left-page-exp">
           <div

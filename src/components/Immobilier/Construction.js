@@ -3,7 +3,7 @@ const Construction = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Rédaction et négociation de contrats de construction, d’assistance à
             la maîtrise d’ouvrage, de maîtrise d’œuvre de délégation de maîtrise

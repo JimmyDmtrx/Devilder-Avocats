@@ -3,7 +3,7 @@ const Consommation = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Conseil à l’élaboration des process de commercialisation /
             distribution (vente à distance, démarchage à domicile et

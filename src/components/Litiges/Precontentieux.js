@@ -3,7 +3,7 @@ const Precontentieux = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li> Analyse et anticipations des risques ;</li>
           <li> Traitement des pré-contentieux ;</li>
           <li>

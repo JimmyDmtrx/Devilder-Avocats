@@ -3,7 +3,7 @@ const Controle = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>
             Étude de la faisabilité du projet : contrôlabilité de l’opération
             (analyse des seuils, qualification du contrôle dans les schémas

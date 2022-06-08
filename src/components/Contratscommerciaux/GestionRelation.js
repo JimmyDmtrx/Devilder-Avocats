@@ -3,7 +3,7 @@ const RelationsCommerciales = () => {
   return (
     <section>
       <div>
-        <ul>
+        <ul className='expertise-list'>
           <li>Renégociation des contrats et mise en place d’avenants ;</li>
           <li>Rédaction de courriers commerciaux et de mise en demeure ;</li>
           <li>
