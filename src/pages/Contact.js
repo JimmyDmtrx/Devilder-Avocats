@@ -11,7 +11,7 @@ const Contact = () => {
             <section>
                 <p>Une question ? Une problématique ?</p>
                 <p>
-                    N’hésitez pas à nous contacter, Nous vous répondrons
+                    N’hésitez pas à nous contacter, nous vous répondrons
                     dans les meilleurs délais.
                 </p>
                 

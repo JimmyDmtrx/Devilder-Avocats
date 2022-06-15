@@ -8,7 +8,8 @@ $black: rgb(23, 23, 23);
 $color-1: #cbc5c1;
 $color-2: #a2aaB0;
 $color-3: #ebeced;
-$color-4: #4c586f;
+$color-4: #006266;
+;
 $color-5: #3e3e3b;
 
 $shadow: 0 1px 3px #333;
@@ -36,7 +37,7 @@ body {
 
 .title {
     text-justify: center;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.5rem;
     border-bottom: 2px solid lightgray;
     padding-bottom: 1rem;
     margin-bottom: 3rem;

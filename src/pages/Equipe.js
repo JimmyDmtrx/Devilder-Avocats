@@ -62,7 +62,7 @@ const Equipe = () => {
                     <div>
                     <p>
               Cécilia est diplômée de l’Université Paris X où elle a obtenu un
-              Master 2 de droit du commercial international et a effectué un
+              Master 2 de droit du commerce international et a effectué un
               semestre d’étude à l’Université Torcuato di Tella de Buenos Aires
               (Argentine).
             </p>
