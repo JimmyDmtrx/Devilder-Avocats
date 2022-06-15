@@ -11,7 +11,7 @@ const Home = () => {
           </article>
 
   <div className='container-sm homeContent'>
-    <section className="row">
+    <section className="row ms-5 me-5 ps-5 pe-5">
     <div className="mt-5">
         {/* <h1 className="title text-center">Notre philosophie </h1> */}
         <p>

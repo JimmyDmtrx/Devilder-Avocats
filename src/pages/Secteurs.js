@@ -4,13 +4,12 @@ import books from "../styles/images/books.jpg"
 const Secteurs = () => {
     return (
         <div className='secteurContent container'>
-        <section className='row'>
+        <section className='row '>
             
                 <article className='col-4 mt-5'>
                     <img style={{width:"100%"}} src={books} alt="books" />
                 </article>
-                <article className='col-8'>
-                <h1 className='title mt-5 mb-5 text-center fs-2'>Nos domaines d'intervention</h1>
+                <article className='col-8 mt-5'>
                     <p> Devilder Avocats déploie ses expertises au profit de
                         clients intervenant dans divers domaines d’activité et s'adapte à tout
                         secteur d'activité, ce qui lui a permis d’acquérir une expertise «

@@ -12,7 +12,7 @@ const Equipe = () => {
                 <article className='col-7 mb-5'>
                     <div className='mb-3'> 
                         <h2 className='text-center fw-bold'>Edouard Devilder</h2>
-                        <p className='text-center fw-bold'>Avocat fondateur</p>
+                        <p className='text-center fw-bold fst-italic'>Avocat fondateur</p>
                     </div>
                     <div>
                     <p>
@@ -57,7 +57,7 @@ const Equipe = () => {
                 <article className='col-7'>
                     <div className='mb-3'>
                         <h2 className='text-center fw-bold'>Cécilia Trovato</h2>
-                        <p className='text-center fw-bold'>Avocate collaboratrice</p>
+                        <p className='text-center fw-bold fst-italic'>Avocate collaboratrice</p>
                     </div>
                     <div>
                     <p>
