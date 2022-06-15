@@ -6,10 +6,10 @@ const Equipe = () => {
     return (
         <div className='equipeContent container'>
             <section className='row'>
-                <article className=' imgContainer col-4'>
+                <article className='imgContainer col-4 me-5'>
                     <img style={{width:"100%"}} src={EdPic} alt="" />
                 </article>
-                <article className='col-8 mb-5'>
+                <article className='col-7 mb-5'>
                     <div className='mb-3'> 
                         <h2 className='text-center fw-bold'>Edouard Devilder</h2>
                         <p className='text-center fw-bold'>Avocat fondateur</p>
@@ -54,7 +54,7 @@ const Equipe = () => {
                 </article>
             </section>
             <section className='row'>
-                <article className='col-8'>
+                <article className='col-7'>
                     <div className='mb-3'>
                         <h2 className='text-center fw-bold'>Cécilia Trovato</h2>
                         <p className='text-center fw-bold'>Avocate collaboratrice</p>
@@ -89,7 +89,7 @@ const Equipe = () => {
             <p>Ses langues de travail sont le français et l’anglais.</p>
                     </div>
                 </article>
-                <article className='imgContainer col-4'>
+                <article className='imgContainer col-4 ms-5'>
                     <img style={{width:"100%"}} src={CecPic} alt="" />
                 </article>
             </section>

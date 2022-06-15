@@ -33,7 +33,8 @@ const Expertise = () => {
           Concurrence
         </div>
         <div onClick={handleCateg3} className="categ-expertise shadow">
-          Distribution - Consommation
+         <p>Distribution - </p>
+         <p> Consommation</p>
         </div>
         <div onClick={handleCateg4} className="categ-expertise shadow">
           Immobilier - Construction

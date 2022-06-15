@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Raleway:wght@300;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 $font-1: 'Raleway', sans-serif;
 $font-2: 'Open Sans', sans-serif;
 $font-3: 'Tiro Kannada', sans-serif;
+$font-4: 'Montserrat', sans-serif;
 
 
 $white: rgb(239, 239, 239);
@@ -38,7 +40,7 @@ h2 {
 }
 
 body {
-    font-family: $font-3;
+    font-family: $font-4;
     font-size: 1.2rem;
 }
 
