@@ -6,3 +6,21 @@
 
     }
 }
+
+.pic-home {
+    position: relative;
+    z-index: -1;
+
+    .msg-home {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        font-family: $font-3;
+        transform: translate(-50%, -50%);
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 2rem;
+        color: $white;
+        letter-spacing: 0.4rem;
+    }
+}

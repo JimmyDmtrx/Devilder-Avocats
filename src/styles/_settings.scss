@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Raleway:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@0;1&display=swap');
 $font-1: 'Raleway', sans-serif;
 $font-2: 'Open Sans', sans-serif;
+$font-3: 'Tiro Kannada', sans-serif;
+
 
 $white: rgb(239, 239, 239);
 $black: rgb(23, 23, 23);
 
-$color-1: #cbc5c1;
+$color-1: #FEF9E7;
 $color-2: #a2aaB0;
 $color-3: #ebeced;
-$color-4: #006266;
-;
-$color-5: #3e3e3b;
+$color-4: #186c3b;
+$color-5: #186c3b7b;
 
 $shadow: 0 1px 3px #333;
 
@@ -30,15 +32,20 @@ $margin-body : 1rem auto;
     text-justify: inter-word;
 }
 
+h2 {
+    color: $color-4;
+    font-style: italic;
+}
+
 body {
-    font-family: $font-2;
+    font-family: $font-3;
     font-size: 1.2rem;
 }
 
 .title {
     text-justify: center;
     letter-spacing: 0.5rem;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid $color-5;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
 }

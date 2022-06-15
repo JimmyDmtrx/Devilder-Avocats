@@ -1,16 +1,19 @@
 import {React} from 'react';
-import librairy from "../styles/images/librairy.jpg"
+import louvre from "../styles/images/paris.jpg"
 
 const Home = () => {
   return (<>
-          <article >
-            <img className="librairy" style={{width:"100vw", height:"50vh", objectFit:"cover"}} src={librairy} alt="librairy" />
+          <article className='pic-home' >
+            <img className="librairy" style={{width:"100vw", height:"50vh", objectFit:"cover"}} src={louvre} alt="librairy" />
+            <p className='msg-home'>
+<p className='text-center'>DEVILDER Avocats</p> <p className="fst-italic">Your trusted legal partner</p>
+</p>
           </article>
 
-  <div className='container homeContent'>
+  <div className='container-sm homeContent'>
     <section className="row">
     <div className="mt-5">
-        <h1 className="title text-center">NOTRE PHILOSOPHIE </h1>
+        {/* <h1 className="title text-center">Notre philosophie </h1> */}
         <p>
           Devilder Avocats est un cabinet d’affaires qui fait preuve d’une
           extrême proximité avec ses clients, d’une très haute qualité de
