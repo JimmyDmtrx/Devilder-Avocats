@@ -19,6 +19,9 @@ const Expertise = () => {
   const handleCateg5 = () => {
     navigate(`/contentieux`);
   };
+  const handleCateg6 = () => {
+    navigate(`/contentieux`);
+  };
   // navigate("/commercial-contrat")
   return (
     <div className="container">
@@ -40,7 +43,7 @@ const Expertise = () => {
         <div onClick={handleCateg5} className="categ-expertise shadow">
           Droit des sociétés 
         </div>
-        <div onClick={handleCateg5} className="categ-expertise shadow">
+        <div onClick={handleCateg6} className="categ-expertise shadow">
           Contentieux 
         </div>
         

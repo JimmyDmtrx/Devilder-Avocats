@@ -6,6 +6,7 @@
     font-size: 1.5rem;
     max-width: 350px;
     width: 100%;
+    max-height: 250px;
     height: 12rem;
     overflow: hidden;
     transition: 0.2s all ease;
@@ -41,7 +42,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 70vh;
+    height: 80vh;
 }
 
 .expertise-list {
