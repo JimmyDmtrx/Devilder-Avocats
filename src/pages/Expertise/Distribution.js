@@ -11,8 +11,8 @@ const Distribution = () => {
   return (
     <section className="container">
       <h1 className="title mt-5 text-center">Distribution et consommation</h1>
-      <div className="div-page-exp">
-        <div className="div-left-page-exp">
+      <div className="div-page-exp row">
+        <div className="div-left-page-exp col-4">
           <div
             onClick={() => {
               setVisible1(true);
@@ -44,8 +44,8 @@ const Distribution = () => {
             <p>Données personnelles</p>
           </div>
         </div>
-        <div className="border-limit"></div>
-        <div className="div-right-list">
+        
+        <div className="div-right-list col-7">
           {visible1 && <DistributionComp />}
           {visible2 && <Consommation />}
           {visible3 && <DonneesPerso />}

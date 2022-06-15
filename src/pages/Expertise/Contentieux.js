@@ -26,8 +26,8 @@ const Contentieux = () => {
         commerciales dans le cadre de procédures classiques ou d’urgence
         (procédures d’heure à heure ou jour fixe).
       </p>
-      <div className="div-page-exp">
-        <div className="div-left-page-exp">
+      <div className="div-page-exp row">
+        <div className="div-left-page-exp col-4">
           <div
             onClick={() => {
               setVisible1(true);
@@ -107,8 +107,8 @@ const Contentieux = () => {
             <p>MARD</p>
           </div>
         </div>
-        <div className="border-limit"></div>
-        <div className="div-right-list">
+        
+        <div className="div-right-list col-7">
           {visible1 && <Precontentieux />}
           {visible2 && <CivilCommercial />}
           {visible3 && <ContentieuxAssurance />}

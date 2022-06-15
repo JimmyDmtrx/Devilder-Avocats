@@ -11,9 +11,9 @@ const ContratsCommerciaux = () => {
   const [visible4, setVisible4] = useState(false);
 
   return (
-    <section className="container">
+    <section className="container ">
       <h1 className="title mt-5 text-center">Contrats commerciaux</h1>
-      <div className="div-page-exp">
+      <div className="div-page-exp row">
         <div className="div-left-page-exp col-4">
           <div
             onClick={() => {
@@ -60,8 +60,8 @@ const ContratsCommerciaux = () => {
             <p>Contentieux commercial</p>
           </div>
         </div>
-        <div className="border-limit"></div>
-        <div className="div-right-list">
+        
+        <div className="div-right-list col-7">
           {visible1 && <Contrats />}
           {visible2 && <ContratsIT />}
           {visible3 && <RelationsCommerciales />}

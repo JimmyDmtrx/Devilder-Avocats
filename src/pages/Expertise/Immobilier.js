@@ -12,8 +12,8 @@ const Immobilier = () => {
   return (
     <section className="container">
       <h1 className="title mt-5 text-center">Immobilier et construction</h1>
-      <div className="div-page-exp">
-        <div className="div-left-page-exp">
+      <div className="div-page-exp row">
+        <div className="div-left-page-exp col-4">
           <div
             onClick={() => {
               setVisible1(true);
@@ -59,8 +59,8 @@ const Immobilier = () => {
             <p>Contentieux</p>
           </div>
         </div>
-        <div className="border-limit"></div>
-        <div className="div-right-list">
+        
+        <div className="div-right-list col-7">
           {visible1 && <BauxCommerciaux />}
           {visible2 && <VenteImmo />}
           {visible3 && <Construction />}

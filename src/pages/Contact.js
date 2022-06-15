@@ -7,8 +7,8 @@ import GDN from '../styles/images/GDN2.jpg'
 
 const Contact = () => {
     return (<>
-    <div> <img className="librairy" style={{width:"100vw", height:"50vh", objectFit:"cover"}} src={GDN} alt="librairy" /></div>
-    <div className='contactContent container mt-5'>
+    <div> <img className="librairy" style={{width:"100vw", height:"60vh", objectFit:"cover"}} src={GDN} alt="librairy" /></div>
+    <div className='contactContent container mt-5 mb-5 pb-5'>
             {/* <h1 className='title mt-5 mb-5 text-center'>Nous contacter</h1> */}
             <section>
                 <p>Une question ? Une problématique ?</p>

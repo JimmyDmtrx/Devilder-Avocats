@@ -1,7 +1,9 @@
 .secteurContent {
     li {
-        background-color: $white;
+        background-color: $color-5;
         font-size: 1.3rem;
         font-family: $font-1;
+        box-shadow: $shadow;
+        text-align: center;
     }
 }

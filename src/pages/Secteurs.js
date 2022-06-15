@@ -18,14 +18,14 @@ const Secteurs = () => {
                         <p>Il s’agit notamment des secteurs
                         d’activité suivants :</p> 
                 <ul className='row mt-5 d-flex justify-content-between'>
-                    <li className='col-5 mb-4 p-3'>Tech - Numérique</li>
-                    <li className='col-5 mb-4 p-3'>Vente en ligne</li>
-                    <li className='col-5 mb-4 p-3'>Bancaire - Services de paiement</li>
-                    <li className='col-5 mb-4 p-3'>Transport</li>
-                    <li className='col-5 mb-4 p-3'>Automobile</li>
-                    <li className='col-5 mb-4 p-3'>Agriculture</li>
-                    <li className='col-5 mb-4 p-3'>Vente aux enchères</li>
-                    <li className='col-5 mb-4 p-3'>Hôtellerie-restauration</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Tech - Numérique</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Vente en ligne</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill '>Bancaire - Services de paiement</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Transport</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Automobile</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Agriculture</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Vente aux enchères</li>
+                    <li className='col-5 mb-4 p-3 rounded-pill'>Hôtellerie-restauration</li>
                 </ul>
             </article>
                 

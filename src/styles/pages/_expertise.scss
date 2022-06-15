@@ -33,7 +33,7 @@
 
 .categ-expertise:hover {
     transition: 100ms;
-    transform: scale(1.1);
+    // transform: scale(1.1);
     cursor: pointer;
 
 }
@@ -46,18 +46,22 @@
 }
 
 .expertise-list {
-    line-height: 3rem;
+    line-height: 1.8rem;
+
+    li {
+        margin: 0.8rem;
+    }
 }
 
 .list-left-exp:hover {
-    background-color: goldenrod;
+    background-color: $color-5;
     cursor: pointer;
 
 }
 
 .list-left-exp p {
     margin-left: 30px;
-    font-weight: 600;
+    text-transform: capitalize;
 }
 
 
@@ -75,10 +79,7 @@
 }
 
 .div-left-page-exp {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
+    height: 6rem;
 }
 
 .list-left-exp {
