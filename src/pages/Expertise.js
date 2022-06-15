@@ -22,8 +22,6 @@ const Expertise = () => {
   // navigate("/commercial-contrat")
   return (
     <div className="container">
-      <h1 className="title mt-5 text-center">Nos expertises</h1>
-
       <section className="categ-container mt-5 pt-5">
         <div className="categ-expertise shadow" onClick={handleCateg1}>
           Contrats commerciaux
