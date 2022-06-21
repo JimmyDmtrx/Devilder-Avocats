@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background: $color-1;
+    background: $color-2;
     top: 0;
     font-family: $font-1;
     position: sticky;
@@ -8,10 +8,11 @@
 
     & h1 {
         letter-spacing: 0.4rem;
+        color: #F2CDAC;
     }
 
     .logo {
-        color: $color-4;
+        color: $color-1;
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -23,11 +24,11 @@
         position: relative;
 
         a {
-            color: $black
+            color: $color-1
         }
 
         .nav-active {
-            color: $color-2
+            color: $black
         }
 
     }
