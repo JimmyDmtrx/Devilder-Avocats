@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const Compliance = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>
             Analyse et évaluation des pratiques au regard du droit de la
             concurrence ;

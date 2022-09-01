@@ -1,6 +1,5 @@
-
 import { useNavigate } from "react-router-dom";
-import {React} from 'react';
+import { React } from "react";
 
 const Expertise = () => {
   const navigate = useNavigate();
@@ -34,19 +33,18 @@ const Expertise = () => {
           Concurrence
         </div>
         <div onClick={handleCateg3} className="categ-expertise shadow">
-         <p>Distribution - </p>
-         <p> Consommation</p>
+          <p>Distribution - </p>
+          <p> Consommation</p>
         </div>
         <div onClick={handleCateg4} className="categ-expertise shadow">
           Immobilier - Construction
         </div>
         <div onClick={handleCateg5} className="categ-expertise shadow">
-          Droit des sociétés 
+          Droit des sociétés
         </div>
         <div onClick={handleCateg6} className="categ-expertise shadow">
-          Contentieux 
+          Contentieux
         </div>
-        
       </section>
     </div>
   );

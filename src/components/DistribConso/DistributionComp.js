@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const DistributionComp = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>
             Élaboration de politiques commerciales et déploiement sur les
             réseaux de distribution ;

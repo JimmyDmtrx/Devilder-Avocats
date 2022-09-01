@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const Mard = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>
             Renégociation des conditions contractuelles avec les partenaires ;
           </li>

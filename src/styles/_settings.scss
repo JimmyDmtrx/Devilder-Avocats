@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Raleway:wght@300;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&display=swap');
 $font-1: 'Raleway', sans-serif;
-$font-2: 'Open Sans', sans-serif;
+$font-2: 'Cormorant', sans-serif;
 $font-3: 'Tiro Kannada', sans-serif;
-$font-4: 'Montserrat', sans-serif;
+$font-4: 'Source Sans Pro', sans-serif;
 
 
 $white: rgb(239, 239, 239);
 $black: rgb(23, 23, 23);
 
-$color-1: #F2CDAC;
-$color-2: #4e773b;
+$color-1: #277046;
+$color-2: #dcdcdc;
 $color-3: #ebeced;
 $color-4: #186c3b;
-$color-5: #186c3b7b;
+$color-5: #114c297b;
 
 $shadow: 0 1px 3px #333;
 
@@ -36,7 +37,7 @@ $margin-body : 1rem auto;
 
 h2 {
     color: $color-4;
-    font-style: italic;
+    font-family: $font-2;
 }
 
 body {

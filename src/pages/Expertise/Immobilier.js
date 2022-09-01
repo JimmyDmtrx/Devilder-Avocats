@@ -59,7 +59,7 @@ const Immobilier = () => {
             <p>Contentieux</p>
           </div>
         </div>
-        
+
         <div className="div-right-list col-7">
           {visible1 && <BauxCommerciaux />}
           {visible2 && <VenteImmo />}

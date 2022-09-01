@@ -1,10 +1,9 @@
-
-import {React} from 'react';
+import { React } from "react";
 const AntiConcu = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>
             Identification et maîtrise des risques (audits internes, analyse du
             risque concurrentiel dans les contrats commerciaux et les accords de

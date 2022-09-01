@@ -1,4 +1,4 @@
-import {React,  useState } from "react";
+import { React, useState } from "react";
 import AntiConcu from "../../components/Concurrence/AntiConcu";
 import Compliance from "../../components/Concurrence/Compliance";
 import ContentieuxConcu from "../../components/Concurrence/ContentieuxConcu";
@@ -59,7 +59,7 @@ const Concurrence = () => {
             <p>Contentieux</p>
           </div>
         </div>
-       
+
         <div className="div-right-list col-7">
           {visible1 && <Controle />}
           {visible2 && <AntiConcu />}

@@ -60,7 +60,7 @@ const ContratsCommerciaux = () => {
             <p>Contentieux commercial</p>
           </div>
         </div>
-        
+
         <div className="div-right-list col-7">
           {visible1 && <Contrats />}
           {visible2 && <ContratsIT />}

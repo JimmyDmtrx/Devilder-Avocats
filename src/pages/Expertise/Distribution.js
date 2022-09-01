@@ -1,4 +1,4 @@
-import {React, useState } from "react";
+import { React, useState } from "react";
 import Consommation from "../../components/DistribConso/Consommation";
 import DistributionComp from "../../components/DistribConso/DistributionComp";
 import DonneesPerso from "../../components/DistribConso/DonneesPerso";
@@ -44,7 +44,7 @@ const Distribution = () => {
             <p>Données personnelles</p>
           </div>
         </div>
-        
+
         <div className="div-right-list col-7">
           {visible1 && <DistributionComp />}
           {visible2 && <Consommation />}

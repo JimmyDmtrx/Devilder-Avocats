@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const ContentieuxConcu = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>Recherche d’une solution amiable ;</li>
           <li>Conseil dans l’élaboration des stratégies contentieuses ;</li>
           <li>

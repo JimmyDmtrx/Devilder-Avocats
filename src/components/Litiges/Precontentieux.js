@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const Precontentieux = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li> Analyse et anticipations des risques ;</li>
           <li> Traitement des pré-contentieux ;</li>
           <li>

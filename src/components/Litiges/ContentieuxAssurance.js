@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const ContentieuxAssurance = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>
             Conseil sur l’opportunité juridique d’engager un recours et sur
             d’éventuelles procédures de règlement du litige à l’amiable ;

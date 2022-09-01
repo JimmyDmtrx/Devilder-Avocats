@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const DroitsSociete = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li>
             Contentieux de l’acquisition : garanties d’actif et de passif,
             earn-out, etc… ;

@@ -1,9 +1,9 @@
-import {React} from 'react';
+import { React } from "react";
 const CivilCommercial = () => {
   return (
     <section>
       <div>
-        <ul className='expertise-list'>
+        <ul className="expertise-list">
           <li> En ATTENTE</li>
           <li> En ATTENTE</li>
           <li>En ATTENTE</li>
