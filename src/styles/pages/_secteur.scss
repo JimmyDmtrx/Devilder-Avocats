@@ -1,16 +1,16 @@
 .secteurContent {
     .sector-listing{
-        z-index: -1;
+       
 
-    .img-sector{
-        position: relative;
-    }
+        
+    
     .sector-text{
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: $font-1;
-        position: absolute;
         font-weight: bold;
-        color: $color-2;
+        color: white; 
+        text-align: center;
+        text-shadow: $shadow;
     }}
    
 }

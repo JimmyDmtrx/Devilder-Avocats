@@ -9,18 +9,15 @@ import hotelPic from '../styles/images/secteurs/hotel.jpg';
 import digiPic from '../styles/images/secteurs/tech.jpg';
 
 let sectors = [
-  {
-    name: 'Bancaire & Services de paiement',
-    imgurl: banquePic,
-  },
-  { name: "Marché de l'art", imgurl: artPic },
+  { name: 'Bancaire & Services de paiement', imgurl: banquePic },
+  { name: 'Tech & Digital', imgurl: digiPic },
   { name: 'Évènementiel', imgurl: eventPic },
   { name: 'Luxe', imgurl: luxePic },
   { name: 'Automobile & Transport', imgurl: autoPic },
   { name: 'E-commerce', imgurl: ecomPic },
   { name: 'Agriculture', imgurl: agriPic },
-  { name: 'Hôtellerie & restauration', imgurl: hotelPic },
-  { name: 'Tech & digital', imgurl: digiPic },
+  { name: 'Hôtellerie & Restauration', imgurl: hotelPic },
+  { name: "Marché de l'art", imgurl: artPic },
 ];
 
 export default sectors;
