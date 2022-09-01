@@ -15,21 +15,21 @@ const Secteurs = () => {
           </p>
           <p>Il s’agit notamment des secteurs d’activité suivants :</p>
         </article>
-        <article className="sector-listing">
-          <ul className="row mt-5 d-flex justify-content-between">
+        <article className="sector-listing d-flex justify-content-between">
+          <ul className="mt-5 d-flex justify-content-between flex-wrap">
             {sectors.map((sector, index) => {
               return (
                 <li
                   key={index}
-                  className="col-4 mb-5 pt-5 pb-5 d-flex justify-content-center align-items-center"
+                  className="mb-5 pt-5 pb-5 d-flex justify-content-center align-items-center"
                   style={{
                     backgroundImage: `url( ${sector.imgurl})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    width: '30%',
-                    height: '40vh',
                     borderRadius: '3px',
                     marginBottom: '1rem',
+                    width: '30%',
+                    height: '45vh',
                   }}
                 >
                   {/* <img
@@ -39,7 +39,7 @@ const Secteurs = () => {
                     style={{ width: '100%', height: '100%' }}
                   /> */}
 
-                  <p className="sector-text text-uppercase ">{sector.name}</p>
+                  <p className="sector-text">{sector.name}</p>
                 </li>
               );
             })}
