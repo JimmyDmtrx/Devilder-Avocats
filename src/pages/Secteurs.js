@@ -21,7 +21,7 @@ const Secteurs = () => {
               return (
                 <li
                   key={index}
-                  className="col-4 mb-4 p-5 d-flex justify-content-center align-items-center"
+                  className="col-4 mb-5 pt-5 pb-5 d-flex justify-content-center align-items-center"
                   style={{
                     backgroundImage: `url( ${sector.imgurl})`,
                     backgroundSize: 'cover',
