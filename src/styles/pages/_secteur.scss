@@ -1,9 +1,16 @@
 .secteurContent {
-    li {
-        background-color: $color-5;
-        font-size: 1.3rem;
-        font-family: $font-1;
-        box-shadow: $shadow;
-        text-align: center;
+    .sector-listing{
+        z-index: -1;
+
+    .img-sector{
+        position: relative;
     }
+    .sector-text{
+        font-size: 1.5rem;
+        font-family: $font-1;
+        position: absolute;
+        font-weight: bold;
+        color: $color-2;
+    }}
+   
 }
