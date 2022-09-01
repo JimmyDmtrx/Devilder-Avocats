@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { React } from "react";
+import { useNavigate } from 'react-router-dom';
+import { React } from 'react';
 
 const Expertise = () => {
   const navigate = useNavigate();
@@ -32,18 +32,18 @@ const Expertise = () => {
         <div onClick={handleCateg2} className="categ-expertise shadow">
           Concurrence
         </div>
-        <div onClick={handleCateg3} className="categ-expertise shadow">
-          <p>Distribution - </p>
-          <p> Consommation</p>
+        <div onClick={handleCateg6} className="categ-expertise shadow">
+          Contentieux
         </div>
+
         <div onClick={handleCateg4} className="categ-expertise shadow">
           Immobilier - Construction
         </div>
         <div onClick={handleCateg5} className="categ-expertise shadow">
           Droit des sociétés
         </div>
-        <div onClick={handleCateg6} className="categ-expertise shadow">
-          Contentieux
+        <div onClick={handleCateg3} className="categ-expertise shadow">
+          <p>Distribution & Consommation</p>
         </div>
       </section>
     </div>

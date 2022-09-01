@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import { React } from "react";
+import { NavLink } from 'react-router-dom';
+import { React } from 'react';
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
               <li>
                 <NavLink
                   to="/"
-                  className={(nav) => (nav.isActive ? "nav-active" : "")}
+                  className={(nav) => (nav.isActive ? 'nav-active' : '')}
                 >
                   Accueil
                 </NavLink>
@@ -23,15 +23,15 @@ const Header = () => {
               <li>
                 <NavLink
                   to="/equipe"
-                  className={(nav) => (nav.isActive ? "nav-active" : "")}
+                  className={(nav) => (nav.isActive ? 'nav-active' : '')}
                 >
-                  Equipe
+                  Équipe
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="/secteurs"
-                  className={(nav) => (nav.isActive ? "nav-active" : "")}
+                  className={(nav) => (nav.isActive ? 'nav-active' : '')}
                 >
                   Secteurs
                 </NavLink>
@@ -39,7 +39,7 @@ const Header = () => {
               <li>
                 <NavLink
                   to="/expertises"
-                  className={(nav) => (nav.isActive ? "nav-active" : "")}
+                  className={(nav) => (nav.isActive ? 'nav-active' : '')}
                 >
                   Expertises
                 </NavLink>
@@ -47,7 +47,7 @@ const Header = () => {
               <li>
                 <NavLink
                   to="/contact"
-                  className={(nav) => (nav.isActive ? "nav-active" : "")}
+                  className={(nav) => (nav.isActive ? 'nav-active' : '')}
                 >
                   Contact
                 </NavLink>
