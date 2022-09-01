@@ -29,6 +29,7 @@ const Secteurs = () => {
                     width: '30%',
                     height: '40vh',
                     borderRadius: '3px',
+                    marginBottom: '1rem',
                   }}
                 >
                   {/* <img
@@ -38,7 +39,7 @@ const Secteurs = () => {
                     style={{ width: '100%', height: '100%' }}
                   /> */}
 
-                  <p className="sector-text">{sector.name}</p>
+                  <p className="sector-text text-uppercase ">{sector.name}</p>
                 </li>
               );
             })}
